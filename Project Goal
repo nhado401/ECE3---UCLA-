@@ -1,0 +1,3 @@
+The main purpose of this project is to create a line-following car using MSP432 microcontroller and TI-RSLK robotic car. The program is written by C++ using Energia to control the robot to follow black line over a track. The car is required to spin 180 degrees when it encounters the horizontal line at the end of the track and repeats the track backward until it sees the horizontal line at the beginning and stops. In order to meet the specifications, PD control is used to keep the car working properly.
+The basic concept of the whole project is using feedback control.
+The track has 52 5/8 inches long and about 6 1/8 inches wide. The car completed a round trip for about 9s.
